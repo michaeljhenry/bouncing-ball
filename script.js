@@ -14,7 +14,6 @@ $(document).ready(function() {
                 {
                     $('.bounce.column').css('visibility', 'visible');
                     $('.message__container').css('display','none');
-                    console.log(a);
                 if( a < 10) {
                     $('.ball').css('-webkit-animation-duration', speed + 's');
                     a++;
@@ -24,7 +23,6 @@ $(document).ready(function() {
                 }, 3000);
         }
         else {
-            console.log('hi');
             $('#message').text('Congratulations. You win !');   
 
             $('.message__container').css('display','inline-block');
